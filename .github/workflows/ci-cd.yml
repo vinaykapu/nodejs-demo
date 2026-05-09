@@ -101,7 +101,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: production
-      url: https://nodejs-demo-app.onrender.com  # replace with your Render URL
+      url: https://nodejs-demo-264g.onrender.com/  # replace with your Render URL
 
     steps:
       - name: Trigger Render deploy hook
